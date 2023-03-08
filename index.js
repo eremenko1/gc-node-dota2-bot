@@ -4,7 +4,7 @@ const steam = require("steam"),
     util    = require("util"),
     fs      = require("fs"),
     crypto  = require("crypto"),
-    dota2   = require("dota2"),
+    dota2   = require("gc-dota2"),
     queue   = require("./queue");
 
 module.exports = class DotaBot {
